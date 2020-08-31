@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d6e0f0;
+  font-family: "Montserrat", sans-serif;
+  color: #393b44;
+}
+
+.main {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.numbers {
+  border: 2px solid #393b44;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1em;
+}
+
+.btn {
+  background-color: #393b44;
+  color: #d6e0f0;
+  width: 200px;
+  height: 40px;
+  outline: none;
+  font-size: 1em;
+  border-radius: 10px;
+}
+
+/* estilos para quitar las flechas en el input type="number" */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
